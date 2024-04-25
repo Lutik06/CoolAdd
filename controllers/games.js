@@ -37,7 +37,7 @@ const addGameController = async (req, res) => {
 };
 
 // Получим игры из JSON-файла и отправим в ответ на запрос
-const sendAllGames = async (req, res) => {
+const sendAllGames = (req, res) => {
     res.send(req.games);
 };
 
